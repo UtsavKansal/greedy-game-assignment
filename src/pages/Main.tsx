@@ -6,8 +6,8 @@ import "./Main.css";
 import SettingsPannel from "../components/SettingsPanel";
 import CustomTable from "../components/CustomTable";
 import { useDispatch, useSelector } from "react-redux";
-import { AppActions } from "../storeo/AppSlice";
-import { RootState } from "../storeo/store";
+import { AppActions } from "../store/AppSlice";
+import { RootState } from "../store/store";
 import { columnsObject } from "../components/Columns";
 import { useSearchParams } from "react-router-dom";
 import { useApi } from "../hooks/useApi";
@@ -52,11 +52,7 @@ const Main = () => {
   )}&endDate=${searchParams.get("endDate")}`;
 
   useEffect(() => {
-    setSearchParams({ startDate: "2021-06-01", endDate: "2021-06-10" });
-  }, [setSearchParams]);
-
-  useEffect(() => {
-    fetch("http://go-dev.greedygame.com/v3/dummy/apps", {
+    fetch("https://go-dev.greedygame.com/v3/dummy/apps", {
       method: "GET",
     })
       .then((res) => {

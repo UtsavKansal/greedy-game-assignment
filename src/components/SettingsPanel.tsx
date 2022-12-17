@@ -3,11 +3,11 @@ import "./SettingsPanel.css";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
 import { useDispatch } from "react-redux";
-import { MetricActions } from "../storeo/MetricSlice";
+import { MetricActions } from "../store/MetricSlice";
 import CustomButton from "./CustomButton";
 import { columnsObject } from "./Columns";
 import { useSelector } from "react-redux";
-import { RootState } from "../storeo/store";
+import { RootState } from "../store/store";
 
 interface SettingsPanelProps {
   toggelSettings: () => void;

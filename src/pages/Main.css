@@ -1,6 +1,10 @@
 .main {
     width: 90%;
     height: 95%;
+    padding: 50px;
+
+    flex-direction: column;
+
 
 }
 

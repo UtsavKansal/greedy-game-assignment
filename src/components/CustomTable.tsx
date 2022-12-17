@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./CustomTable.css";
 import { useSelector } from "react-redux/es/exports";
-import { RootState } from "../storeo/store";
+import { RootState } from "../store/store";
 
 import { AiFillFilter } from "react-icons/ai";
 import { columnType } from "./Columns";

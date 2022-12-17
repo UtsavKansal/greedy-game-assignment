@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 import Main from "./pages/Main";
 import { Provider } from "react-redux";
-import store from "./storeo/store";
+import store from "./store/store";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
