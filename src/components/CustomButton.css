@@ -1,0 +1,57 @@
+.btn-primary,
+.btn-secondary {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #70707038;
+    border-radius: 6px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: white;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    color: white;
+
+}
+
+
+.btn-secondary {
+    background-color: blue;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.btn .label {
+    text-align: left;
+    font: 18px;
+    letter-spacing: 0.27px;
+    color: #1D1A1A;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.icon {
+
+    width: 15px;
+    height: 15px;
+    font-weight: bolder;
+    margin-right: 10px;
+}

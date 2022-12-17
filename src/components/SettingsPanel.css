@@ -1,0 +1,43 @@
+.settings_pannel {
+    width: 100%;
+    height: auto;
+    border: 1px solid #70707038;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.acontainer {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.metric,
+.metric-active {
+    text-align: center;
+
+    border: 1px solid #70707038;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 7.5px;
+
+}
+
+.metric:hover,
+.metric-active:hover {
+    background-color: rgb(223, 216, 216);
+}
+
+.metric-active {
+    border-left: 4px solid blue;
+}
+
+.buttom_button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}

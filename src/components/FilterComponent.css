@@ -1,0 +1,19 @@
+.slider_container {
+
+    margin-top: 20px;
+    width: 100%;
+
+
+
+}
+
+.button_container {
+    display: flex;
+
+    align-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}

@@ -1,0 +1,29 @@
+.main {
+    width: 90%;
+    height: 95%;
+
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.27px;
+    color: #1D1A1A;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.top_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.settings_icon {
+    color: blue;
+    width: 15px;
+    height: 15px;
+    font-weight: bolder;
+}
